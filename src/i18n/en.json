@@ -1,0 +1,6 @@
+{
+  "t.title": "title",
+  "t.test_tag": "<h2>hihi</h2>",
+  "t.test_tag_variable": "<u>{{name}}</u>, welcome ! you are {{level}} member ! ",
+  "t.test_index": "{{0}} likes {{1}} , {{2}} and {{3}}~!"
+}
