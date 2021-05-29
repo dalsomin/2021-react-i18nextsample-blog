@@ -20,6 +20,7 @@ i18n.use(initReactI18next).init({
 
   // have a common namespace used around the full app
   ns: ["label1", "label2"],
+  defaultNS: "lable1",
 
   keySeparator: false, // we use content as keys
 

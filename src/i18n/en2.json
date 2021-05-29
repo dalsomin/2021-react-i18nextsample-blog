@@ -1,6 +1,6 @@
 {
-  "t.title": "title",
-  "t.test_tag": "Namespace changed! - <h3>label2 !~!</h3>",
+  "t.title": "title: label2",
+  "t.test_tag": "Namespace changed! - <b>label2 !!</b>",
   "t.test_tag_variable": "<u>{{name}}</u> find {{level}} knowledge!! great!! ",
   "t.test_index": "{{0}} drinks {{1}} and eat {{2}} and listens to {{3}}~!"
 }

@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 const I18nextTest: React.FC = (props) => {
   const classes = useStyles();
   const [value, setValue] = useState("en");
+  const [nameSpace, setNameSpace] = useState("label1");
 
   const handleChange = (event) => {
     console.log(event.target.value);
@@ -30,8 +31,9 @@ const I18nextTest: React.FC = (props) => {
 
   const handleNameSpaceChange = (event) => {
     console.log("안녕!?!!??", event.target.value);
-    let namespace = event.target.value;
-    i18n.setDefaultNamespace(namespace);
+    let newNamespace = event.target.value;
+    setNameSpace(newNamespace);
+    i18n.setDefaultNamespace(newNamespace);
   };
 
   const { t } = useTranslation();
@@ -72,7 +74,7 @@ const I18nextTest: React.FC = (props) => {
                 <RadioGroup
                   aria-label="namespace"
                   name="namespace"
-                  value={value}
+                  value={nameSpace}
                   onChange={handleNameSpaceChange}
                 >
                   <FormControlLabel

@@ -1,6 +1,6 @@
 {
-  "t.title": "title",
-  "t.test_tag": "<h2>hihi</h2>",
+  "t.title": "title: label1",
+  "t.test_tag": "Namespace changed! - <b>label1 !!</b>",
   "t.test_tag_variable": "<u>{{name}}</u>, welcome ! you are {{level}} member ! ",
   "t.test_index": "{{0}} likes {{1}} , {{2}} and {{3}}~!"
 }
